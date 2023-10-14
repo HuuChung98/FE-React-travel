@@ -1,0 +1,19 @@
+.container {
+    background-color: #ffffffff !important;
+    max-width: 100%;
+}
+.bg-light {
+    max-width: 100%;
+    background-color: #ffffffff !important;
+}
+.container .logo {
+    margin-right: 500px;
+}
+
+.image-brand {
+    height: 100px;
+    width: 100%;
+}
+.navbar-nav .nav-link{
+    color: rgb(46, 141, 214) !important;
+}
