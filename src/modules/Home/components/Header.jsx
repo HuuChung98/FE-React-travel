@@ -38,8 +38,10 @@ const Header = () => {
                         </li>
                     </ul>
                     <form className="form-inline my-2 my-lg-0">
-                        <button className="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search"> <i class="fa-solid fa-bars"></i> </ button>
-                        <button className="btn btn-outline-success my-2 my-sm-0" type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
+                        <button className="button-fa-solid form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search"> <i className="fa-solid fa-bars" />
+                        </ button>
+                        <button className="button-fa-solid btn btn-outline-success my-2 my-sm-0" type="submit"><i className="fa-solid fa-magnifying-glass" />
+                        </button>
                     </form>
                 </div>
             </nav>

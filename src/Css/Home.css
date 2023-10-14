@@ -11,9 +11,20 @@
 }
 
 .image-brand {
+    margin-left: 50px;
     height: 100px;
     width: 100%;
 }
 .navbar-nav .nav-link{
     color: rgb(46, 141, 214) !important;
+}
+
+.button-fa-solid {
+    color: rgb(46, 141, 214);
+    border: solid  #ffffffff;
+    border-radius: 50%;
+}
+.btn-outline-success:hover {
+    background-color: rgb(46, 141, 214);
+    border: solid  rgb(46, 141, 214);
 }
