@@ -84,6 +84,8 @@
 }
 
 /* Footer  */
+
+
 .footer-container {
     height: 600px;
     background-color: #2d373c;
@@ -92,4 +94,17 @@
 .footer-above .column {
     width: 33.33%;
     color: aliceblue;
+    margin-top: 50px;
+}
+.footer-contain {
+    margin-right: 20px;
+}
+.showcase-content {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+}
+.showcase__item img {
+    object-fit: cover;
+    /* filter: grayscale(100%) contrast(50%); */
 }

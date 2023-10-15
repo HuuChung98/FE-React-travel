@@ -47,30 +47,30 @@ const Footer = () => {
             </div>
           </div>
           <div className="footer-right column">
-            <div>
-              <h3>
-                Gallery
-              </h3>
-              <div className='gallery-content'>
-                <div>
-                  <div className="gallery-item">
-                    <img src="/images/fg-1.png" />
-                  </div>
-                  <div className="gallery-item">
-                    <img src="/images/fg-2.png" />
-                  </div>
-                  <div className="gallery-item">
-                    <img src="/images/fg-3.png" />
-                  </div>
-                  <div className="gallery-item">
-                    <img src="/images/fg-4.png" />
-                  </div>
-                  <div className="gallery-item">
-                    <img src="/images/fg-5.png" />
-                  </div>
-                  <div className="gallery-item">
-                    <img src="/images/fg-6.png" />
-                  </div>
+            <div className='footer-contain'>
+              <div className="showcase-title">
+                <h3>
+                  Gallery
+                </h3>
+              </div>
+              <div className='showcase-content'>
+                <div className="showcase__item">
+                  <img src="/images/fg-1.png" alt />
+                </div>
+                <div className="showcase__item">
+                  <img src="/images/fg-2.png" alt />
+                </div>
+                <div className="showcase__item">
+                  <img src="/images/fg-3.png" alt />
+                </div>
+                <div className="showcase__item">
+                  <img src="/images/fg-4.png" alt />
+                </div>
+                <div className="showcase__item">
+                  <img src="/images/fg-5.png" alt />
+                </div>
+                <div className="showcase__item">
+                  <img src="/images/fg-6.png" alt />
                 </div>
               </div>
             </div>
