@@ -30,28 +30,36 @@
 }
 
 /* Swipper Banner  */
-.container-swiper {
+.slideShow-banner{
     height: 600px;
-    max-width: 100%;
+    max-width: 50%;
 }
-.swiper-image {
-    width: 50%;
+.text-banner {
+    max-width: 50%;
 }
-.swiper {
-    width: 100%;
-    height: 500px;
-  }
-/* .background-image1 {
-    background-image: url("../../public/images/bg-highlight1.png");
-    width: 100%;
+.header-text {
+    margin-top: 100px;
 }
-.background-image2 {
-    background-image: url("../../public/images/bg-highlight2.png");
+.header-text h1 {
+    color: #ff4838;
+    font-weight: 700;
+    letter-spacing: .05em;
+    font-size: 70px;
+    line-height: 85px;
+}
+.content {
+    margin: 25px 20px;
+}
+.content p {
+    color: #8d1b1b;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: .02em;
+    line-height: 25px;
+}
 
-    width: 100%;
+.detail {
+    justify-content: space-around;
+    margin-top: 45px;
 }
-.background-image3 {
-    background-image: url("../../public/images/bg-highlight3.png");
 
-    width: 100%;
-} */
